@@ -1,0 +1,7 @@
+model_id: "microsoft/Florence-2-large"
+task_prompt: "<OD>"
+phrase_grounding_prompt: "<CAPTION_TO_PHRASE_GROUNDING>"
+device: "cuda"
+max_new_tokens: 1024
+num_beams: 3
+image_size: 768

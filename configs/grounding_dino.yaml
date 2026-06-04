@@ -1,0 +1,8 @@
+model_id: "IDEA-Research/grounding-dino-tiny"
+box_threshold: 0.35
+text_threshold: 0.25
+device: "cuda"
+batch_size: 4
+nms_threshold: 0.5
+image_size: 800
+max_detections: 300
