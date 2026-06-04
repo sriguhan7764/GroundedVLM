@@ -1,0 +1,18 @@
+clip:
+  model_name: "ViT-L-14"
+  pretrained: "openai"
+  device: "cuda"
+  batch_size: 64
+
+align:
+  model_id: "kakaobrain/align-base"
+  device: "cuda"
+  batch_size: 32
+
+siglip:
+  model_id: "google/siglip-large-patch16-384"
+  device: "cuda"
+  batch_size: 32
+
+temperature: 0.07
+reranking_alpha: 0.5
